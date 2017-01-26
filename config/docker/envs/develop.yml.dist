@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  php:
+    volumes:
+      - ./logs/php:/var/log/xxx/php
+
+    environment:
+      API_URL: 'http://xxx.dev'
+
+      # APIPDB
+      DB_DSN:      'mysql:host=xxx;dbname=xxx'
+      DB_USER:     'xxx'
+      DB_PASSWORD: 'xxx'
+
+      TRANSLOADIT_KEY: 'xxx'
+      TRANSLOADIT_SECRET: 'xxx'

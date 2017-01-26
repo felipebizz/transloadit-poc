@@ -1,0 +1,12 @@
+<?php
+
+define('DB_DSN',      getenv('DB_DSN'));
+define('DB_USER',     getenv('DB_USER'));
+define('DB_PASSWORD', getenv('DB_PASSWORD'));
+
+define('TRANSLOADIT_KEY',    getenv('TRANSLOADIT_KEY'));
+define('TRANSLOADIT_SECRET', getenv('TRANSLOADIT_SECRET'));
+
+define('S3_KEY',    getenv('S3_KEY'));
+define('S3_SECRET', getenv('S3_SECRET'));
+define('S3_BUCKET', getenv('S3_BUCKET'));
