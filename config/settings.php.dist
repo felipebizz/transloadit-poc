@@ -10,3 +10,4 @@ define('TRANSLOADIT_SECRET', getenv('TRANSLOADIT_SECRET'));
 define('S3_KEY',    getenv('S3_KEY'));
 define('S3_SECRET', getenv('S3_SECRET'));
 define('S3_BUCKET', getenv('S3_BUCKET'));
+define('S3_REGION', getenv('S3_REGION'));

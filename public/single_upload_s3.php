@@ -26,15 +26,18 @@ echo $transloadit->createAssemblyForm([
     'params' => [
         'steps' => [
             'resize' => [
-                'robot' => '/image/resize',
-                'width' => 200,
+                'robot'  => '/image/resize',
+                'width'  => 200,
                 'height' => 100,
             ],
             'store' => [
-                'robot' => '/s3/store',
-                'key' => S3_KEY,
-                'secret' => S3_SECRET,
-                'bucket' => S3_BUCKET,
+                'robot'         => '/s3/store',
+                'key'           => S3_KEY,
+                'secret'        => S3_SECRET,
+                'bucket'        => S3_BUCKET,
+                'bucket_region' => S3_REGION,
+                'path'          => '${assembly.id}/${file.id}',
+                'return'        => true
             ]
 
     ],

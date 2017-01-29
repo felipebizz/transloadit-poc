@@ -1,0 +1,56 @@
+{
+  "steps": {
+    "safe": {
+      "use": ":original",
+      "robot": "/file/virusscan",
+      "error_on_decline": true,
+      "result": true
+    },
+    "big": {
+      "use": "safe",
+      "robot": "/image/resize",
+      "width": "120",
+      "height": "120",
+      "format": "png",
+      "result": true
+    },
+    "thumb": {
+      "use": "big",
+      "robot": "/image/resize",
+      "width": "75",
+      "height": "75",
+      "format": "png",
+      "result": true
+    },
+    "store_original": {
+      "use": ":original",
+      "robot": "/s3/store",
+      "key": "xxx",
+      "secret": "xxx",
+      "bucket": "xxx",
+      "path": "xxx",
+      "bucket_region": "xxx",
+      "result": true
+    },
+    "store_big": {
+      "use": "big",
+      "robot": "/s3/store",
+      "key": "xxx",
+      "secret": "xxx",
+      "bucket": "xxx",
+      "path": "xxx",
+      "bucket_region": "xxx",
+      "result": true
+    },
+    "store_thumb": {
+      "use": "thumb",
+      "robot": "/s3/store",
+      "key": "xxx",
+      "secret": "xxx",
+      "bucket": "xxx",
+      "path": "xxx",
+      "bucket_region": "xxx",
+      "result": true
+    }
+  }
+}

@@ -1,7 +1,23 @@
 # Transloadit POC
 
-Transloadit Demo [Transloadit Demo](https://transloadit.com/demos/exporting-files/store-uploaded-files-on-s3/)
-Transloadit PHP SDK [Transloadit](https://github.com/transloadit/php-sdk)
+[Transloadit Demo](https://transloadit.com/demos/exporting-files/store-uploaded-files-on-s3/)
+
+[Transloadit PHP SDK](https://github.com/transloadit/php-sdk)
+
+[Drag n Drop Plugin](https://github.com/tim-kos/transloadit-drag-and-drop)
+
+[S3 Input File](https://transloadit.com/docs/conversion-robots/#s3-store)
+
+[Auth Signature](https://transloadit.com/docs/#authentication)
+
+
+## TODO
+- Gerar Template
+- Utilizar signeature de uma hora para garantir segurança
+- Assemble_url salva dados no banco
+- Notification_url salva info no rabbit
+- Consumer para atualizar dados e executar regras adicionais
+- php para mostrar o thumb sem exibir url do S3
 
 ## Install
 
