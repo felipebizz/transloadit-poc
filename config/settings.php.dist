@@ -6,6 +6,7 @@ define('DB_PASSWORD', getenv('DB_PASSWORD'));
 
 define('TRANSLOADIT_KEY',    getenv('TRANSLOADIT_KEY'));
 define('TRANSLOADIT_SECRET', getenv('TRANSLOADIT_SECRET'));
+define('TRANSLOADIT_TEMPLATE', getenv('TRANSLOADIT_TEMPLATE'));
 
 define('S3_KEY',    getenv('S3_KEY'));
 define('S3_SECRET', getenv('S3_SECRET'));

@@ -15,6 +15,7 @@ services:
 
       TRANSLOADIT_KEY: 'xxx'
       TRANSLOADIT_SECRET: 'xxx'
+      TRANSLOADIT_TEMPLATE: 'xxx'
 
       S3_KEY: 'xxx'
       S3_SECRET: 'xxx'

@@ -50,7 +50,7 @@ TransloaditUploader.prototype.bindEvents = function() {
 
 TransloaditUploader.prototype.startUpload = function(opts) {
   var options = {
-    wait       : true,
+    wait       : false,
     modal      : true,
     autoSubmit : false,
     onSuccess  : this.successCb.bind(this),

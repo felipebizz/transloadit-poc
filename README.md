@@ -10,11 +10,11 @@
 
 [Auth Signature](https://transloadit.com/docs/#authentication)
 
+## DANGER
+
+Using signature, I think it is safer to use "referer" parameter
 
 ## TODO
-- Gerar Template
-- Utilizar signeature de uma hora para garantir segurança
-- Assemble_url salva dados no banco
 - Notification_url salva info no rabbit
 - Consumer para atualizar dados e executar regras adicionais
 - php para mostrar o thumb sem exibir url do S3
