@@ -6,6 +6,7 @@ $authKey     = TRANSLOADIT_KEY;
 $authSecret  = TRANSLOADIT_SECRET;
 $time        = gmdate('Y/m/d H:i:s+00:00', strtotime('+1 hour'));
 $template_id = TRANSLOADIT_TEMPLATE;
+$notify_url  = TRANSLOADIT_NOTIFY;
 
 $params = [
   'auth' => array(
@@ -41,7 +42,10 @@ $form_params = htmlentities(json_encode($params));
             formData:  true,
             wait:      false,
             locale:    'my_locale',
-            onSuccess  : function(result){ console.log(result);},
+            onSuccess  : function(result){
+                console.log(result);
+                $.post('result.php', {json:result});
+            },
             onError    : function(result){ console.log(result);}
         });
 

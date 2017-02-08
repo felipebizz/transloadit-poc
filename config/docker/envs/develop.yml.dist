@@ -11,13 +11,19 @@ services:
       DB_DSN:      'mysql:host=xxx;dbname=xxx'
       DB_USER:     'xxx'
       DB_PASSWORD: 'xxx'
-      DB_PASSWORD: 'xxx'
 
-      TRANSLOADIT_KEY: 'xxx'
-      TRANSLOADIT_SECRET: 'xxx'
+      TRANSLOADIT_KEY:      'xxx'
+      TRANSLOADIT_SECRET:   'xxx'
       TRANSLOADIT_TEMPLATE: 'xxx'
 
-      S3_KEY: 'xxx'
+      S3_KEY:    'xxx'
       S3_SECRET: 'xxx'
       S3_BUCKET: 'xxx'
       S3_REGION: 'xxx'
+
+      RABBITMQ_HOST:     'xxx'
+      RABBITMQ_PORT:     'xxx'
+      RABBITMQ_USER:     'xxx'
+      RABBITMQ_PASS:     'xxx'
+      RABBITMQ_VHOST:    'xxx'
+      RABBITMQ_EXCHANGE: 'xxx'

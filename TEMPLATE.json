@@ -28,7 +28,7 @@
       "key": "xxx",
       "secret": "xxx",
       "bucket": "xxx",
-      "path": "xxx",
+      "path": "${assembly.id}/${file.id}",
       "bucket_region": "xxx",
       "result": true
     },
@@ -38,7 +38,7 @@
       "key": "xxx",
       "secret": "xxx",
       "bucket": "xxx",
-      "path": "xxx",
+      "path": "${assembly.id}/big/${file.id}",
       "bucket_region": "xxx",
       "result": true
     },
@@ -48,9 +48,10 @@
       "key": "xxx",
       "secret": "xxx",
       "bucket": "xxx",
-      "path": "xxx",
+      "path": "${assembly.id}/thumb/${file.id}",
       "bucket_region": "xxx",
       "result": true
     }
-  }
+  },
+  "notify_url": "xxx"
 }
