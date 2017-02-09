@@ -12,3 +12,10 @@ define('S3_KEY',    getenv('S3_KEY'));
 define('S3_SECRET', getenv('S3_SECRET'));
 define('S3_BUCKET', getenv('S3_BUCKET'));
 define('S3_REGION', getenv('S3_REGION'));
+
+define('RABBITMQ_HOST',     getenv('RABBITMQ_HOST'));
+define('RABBITMQ_PORT',     getenv('RABBITMQ_PORT'));
+define('RABBITMQ_USER',     getenv('RABBITMQ_USER'));
+define('RABBITMQ_PASS',     getenv('RABBITMQ_PASS'));
+define('RABBITMQ_VHOST',    getenv('RABBITMQ_VHOST'));
+define('RABBITMQ_EXCHANGE', getenv('RABBITMQ_EXCHANGE'));
