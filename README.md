@@ -12,6 +12,8 @@
 
 [UPPY](https://github.com/transloadit/uppy)
 
+[Transloadit Video Thumbnail Chooser](https://transloadit.com/example_apps/video-thumbnail-chooser/index.php)
+
 ## DANGER
 
 Using signature, I think it is safer to use "referer" parameter
