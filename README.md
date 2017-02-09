@@ -10,6 +10,8 @@
 
 [Auth Signature](https://transloadit.com/docs/#authentication)
 
+[UPPY](https://github.com/transloadit/uppy)
+
 ## DANGER
 
 Using signature, I think it is safer to use "referer" parameter
